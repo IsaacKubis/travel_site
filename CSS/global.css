@@ -1,0 +1,83 @@
+body {
+  size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  height: 5rem;
+  background: #FFFFFF;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__header {
+  color: #335576;
+  margin-left: 4rem;
+}
+.nav__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 4rem;
+}
+.nav__current-link {
+  list-style-type: none;
+  margin-left: 1rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+  text-underline-offset: 1rem;
+}
+.nav__current-link:visited, .nav__current-link:link {
+  color: black;
+  text-decoration-color: #DB7A4E;
+  text-decoration-thickness: 4px;
+}
+.nav__item {
+  list-style-type: none;
+  margin-left: 1rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.nav__link {
+  text-decoration: none;
+  margin-left: 1rem;
+}
+.nav__link:visited, .nav__link:link {
+  color: black;
+}
+
+.footer {
+  background-color: #FEFAF5;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+.footer__header {
+  color: #335576;
+}
+.footer__email {
+  color: #335576;
+}
+.footer__small-text {
+  margin-top: 0;
+  font-size: 0.75rem;
+  color: #DB7A4E;
+}
+.footer__hours {
+  margin-right: 2rem;
+  color: #335576;
+}
+.footer__hours-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer__icon {
+  max-width: 40px;
+  max-height: 40px;
+  margin-right: 2rem;
+}/*# sourceMappingURL=global.css.map */

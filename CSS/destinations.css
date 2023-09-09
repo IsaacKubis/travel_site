@@ -1,0 +1,64 @@
+.itinerary__hawaii {
+  background-image: url("../../Assets/Images/hawaii.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.itinerary__iceland {
+  background-image: url("../../Assets/Images/iceland.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.itinerary__greece {
+  background-image: url("../../Assets/Images/greece.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.itinerary__hawaii, .itinerary__iceland, .itinerary__greece {
+  margin-top: 5rem;
+}
+.itinerary__cards {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8rem;
+}
+.itinerary__header {
+  font-weight: 700;
+  color: white;
+  font-size: 6rem;
+  margin-left: 6rem;
+  padding-top: 4rem;
+}
+.itinerary__card-header {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid black;
+}
+.itinerary__items {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.itinerary__item {
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem;
+  margin: 1rem;
+  width: 100%;
+  background: #FEFAF5;
+  font-size: 1.25rem;
+}
+.itinerary__card {
+  width: 20%;
+  margin-right: 3rem;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 4.5rem;
+  border-radius: 10px;
+}/*# sourceMappingURL=destinations.css.map */

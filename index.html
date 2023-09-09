@@ -1,11 +1,97 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <link href="./css/global.css" rel="stylesheet"/>
+    <link href="./CSS/main.css" rel="stylesheet"/>
 </head>
-<body>
 
+<body>
+    <nav class="nav">
+        <h2 class="nav__header">Travel Site</h2>
+        <ul class="nav__items">
+            <li class="nav__current-link"><span><a href="./index.html" class="nav__current-link">Home</a></span></li>
+            <li class="nav__item"><span><a href="./Pages/Hawaii.html" class="nav__link">Hawaii</a></span></li>
+            <li class="nav__item"><span><a href="./Pages/Iceland.html" class="nav__link">Iceland</a></span></li>
+            <li class="nav__item"><span><a href="./Pages/Greece.html" class="nav__link">Greece</a></span></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <div class="hero__split">
+            <h1 class="hero__header">Travelling Comes With Endless Discoveries</h1>
+            <p class="hero__text">Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+            <button class="hero__button">Get started</button>
+        </div>
+        <div class="hero__split">
+            <img src="./Assets/Images/hero.png" class="hero__img" />
+        </div>
+    </section>
+
+    <section class="recommendations">
+        <h2 class="recommendations__header">Recommendations</h2>
+        <div class="cards">
+            <div class="cards__card">
+                <a href="./Pages/Hawaii.html" class="cards__link"></a>
+                <div>
+                    <img src="./Assets/Images/hawaii.jpg" alt="Hawaii.jpg" class="cards__image"/>
+                </div>
+                <div class="cards__text-position">
+                    <p class="cards__text">Hawaii</p>
+                </div>
+            </div>
+            <div class="cards__card">
+                <a href="./Pages/Iceland.html" class="cards__link"></a>
+                <div>
+                    <img src="./Assets/Images/iceland.jpg" alt="Iceland.jpg" class="cards__image"/>
+                </div>
+                <div class="cards__text-position">
+                    <p class="cards__text">Iceland</p>
+                </div>
+            </div>
+            <div class="cards__card">
+                <a href="./Pages/Greece.html" class="cards__link"></a>
+                <div>
+                    <img src="./Assets/Images/greece.jpg" alt="Greece.jpg" class="cards__image"/>
+                </div>
+                <div class="cards__text-position">
+                    <p class="cards__text">Greece</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__contact">
+            <h2 class="footer__header">Contact</h2>
+            <p class="footer__small-text">EMAIL</p>
+            <p class="footer__email">info@travelsite.com</p>
+        </div>
+        <div class="footer__days">
+            <h2 class="footer__header"> Hours</h2>
+            <div class="footer__hours-container">
+                <div>
+                    <p class="footer__small-text">MONDAY - FRIDAY</p>
+                    <p class="footer__hours">9:00 AM - 5:00 PM</p>
+                </div>
+                <div>
+                    <p class="footer__small-text">SATURDAY</p>
+                    <p class="footer__hours">10:00 AM - 4:00 PM</p>
+                </div>
+                <div>
+                    <p class="footer__small-text">SATURDAY</p>
+                    <p class="footer__hours">Closed</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer__social">
+            <h2 class="footer__header">Social</h2>
+            <div class="footer__icons">
+                <span><a href="https://www.instagram.com/"><img src="./Assets/Icons/icon-instagram.png" class="footer__icon"></a></span>
+                <span><a href="https://www.facebook.com/"><img src="./Assets/Icons/icon-facebook.png" class="footer__icon"></a></span>
+                <span><a href="https://www.twitter.com/"><img src="./Assets/Icons/icon-twitter.png" class="footer__icon"></a></span>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

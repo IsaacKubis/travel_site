@@ -1,0 +1,32 @@
+.footer {
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    &__header {
+            color: #335576;
+        }
+    &__email {
+        color: #335576;
+    }
+    &__small-text {
+            margin-top: 0;
+            font-size: .75rem;
+            color: #DB7A4E;
+        }
+    &__hours { 
+        margin-right: 2rem;
+        color: #335576;
+    }
+    &__hours-container {
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    &__icon {
+        max-width: 40px; 
+        max-height: 40px; 
+        margin-right: 2rem;
+    }
+}

@@ -1,0 +1,45 @@
+.nav {
+    position: fixed;
+    top: 0;
+    height: 5rem;
+    background: #FFFFFF;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__header {
+        color: #335576;
+        margin-left: 4rem;
+    }
+    &__items {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-right: 4rem;
+    }
+    &__current-link {
+        list-style-type: none;
+        margin-left: 1rem;
+        font-weight: 500;
+        font-size: 1.25rem;
+        text-underline-offset: 1rem;          
+    }
+    &__current-link:visited, &__current-link:link {
+        color: black;
+        text-decoration-color: #DB7A4E;
+        text-decoration-thickness: 4px;
+    }
+    &__item {
+        list-style-type: none;
+        margin-left: 1rem;
+        font-weight: 500;
+        font-size: 1.25rem;
+    }
+    &__link {
+        text-decoration: none;
+        margin-left: 1rem;
+    }
+    &__link:visited, &__link:link {
+        color: black;
+    }
+}

@@ -1,0 +1,40 @@
+.hero {
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    background-color: #FEFAF5;
+    color: #335576;
+    align-items: center;
+    &__header {
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 1.25rem;
+    }
+    &__button {
+        background-color: #DB7A4E; /* Green */
+        border: none;
+        color: white;
+        padding: 13px 60px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 25px;
+        font-size: 1.25rem;
+        font: 500;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    &__split {
+        margin: auto;
+        max-width: 35%;
+    }
+    &__img {
+        width: 90%;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+}
